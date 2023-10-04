@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bootstrap Mazda Website</title>
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- bootstrap style----------------------------------------->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <!-- bootstrap style----------------------------------------->
+
+  <!-- icon---------------------------------------------------->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <script src="https://kit.fontawesome.com/aed056c6bf.js" crossorigin="anonymous"></script>
+  <!-- icon---------------------------------------------------->
+</head>
+
+<body>
+  <!-- start of  header------------------------------------------------------ -->
+  <header>
+    <div class="container-fluid text-center">
+
+      <div class="row align-items-center pt-3">
+
+        <div class="col-lg-2 d-flex justify-content-lg-start col-6  logo">
+          <a href="index.html">
+            <img src="img/logo.png" alt="company logo" />
+          </a>
+        </div>
+
+        <div class="col-6 text-start heading">
+          <h3 class="mt-lg-2">MAZDA FIELD PORTAL</h3>
+        </div>
+
+        <div class="col-lg-1 d-none d-lg-block border-right icon">
+          <i class="fa-solid fa-link fs-3"></i>
+          <p class="links">Useful Links</p>
+        </div>
+
+        <div class="col-lg-1 d-none d-lg-block border-right icon">
+          <span class="material-symbols-outlined fs-3"> search </span>
+          <p>Search</p>
+        </div>
+
+        <div class="search-box input-group d-lg-none col-6 my-2" style="width: 50%">
+          <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+            <option selected>Search...</option>
+            <option value="1">Useful Links</option>
+          </select>
+        </div>
+
+        <div class="col-lg-2 d-flex justify-content-lg-end align-items-center col-6 justify-content-end"
+          style="color: #999999; gap: 5px">
+          <p class="fs-5 mb-0">User Name</p>
+          <span class="material-symbols-outlined fs-1"> person </span>
+        </div>
+
+      </div>
+    </div>
+  </header>
+  <!-- end of  header------------------------------------------------------ -->
+
+  <!-- start of  lower-header------------------------------------------------------ -->
+  <div class="container-fluid lower-header d-flex align-items-center">
+    <div class="row">
+      <div class="col-lg-12 hamburger-container" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+        <i class="fa-solid fa-bars hamburger"></i>
+      </div>
+
+      <div class="offcanvas offcanvas-start" data-bs-scroll="false" data-bs-backdrop="static" tabindex="-1"
+        id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close hamburger-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body container" style="padding-bottom: 0; height: 100%">
+          <div class="sidebar-container row" style="height: 100%">
+            <div class="col-2 border-end pt-4 sidebar-border" style="height: 100%">
+              <div class="d-flex justify-content-start align-items-center flex-column" style="gap: 30px">
+                <i class="fa-solid fa-bell" style="color: #8c8c8c"></i>
+                <i class="fa-solid fa-bell-slash" style="color: #8c8c8c"></i>
+                <i class="fa-solid fa-face-meh-blank" style="color: #c8c8c8"></i>
+              </div>
+            </div>
+            <div class="col-10 navitems">
+              <h5 class="text-left mt-4 ms-3" style="font-size: 13px; color: #c8c8c8">
+                APPLICATIONS
+              </h5>
+              <div>
+                <pre class="ms-3 mt-5" style="color: #8c8c8c">
+  CONTACT REPORTS         +</pre>
+                <pre class="ms-3" style="color: #8c8c8c">
+  SERVICE SHOP CAPACITY   +</pre>
+                <pre class="ms-3" style="color: #ffffff">
+  SUUPLY DEMAND SIMULATOR -</pre>
+                <pre class="ms-3" style="color: #8c8c8c"><i class="fa-solid fa-arrow-right"></i> By Region</pre>
+                <pre class="ms-3" style="color: #8c8c8c"><i class="fa-solid fa-arrow-right"></i> By Dealer</pre>
+                <pre class="ms-3" style="color: #8c8c8c"><i class="fa-solid fa-arrow-right"></i> By Market</pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end of  lower-header------------------------------------------------------ -->
+  <main>
+    <div class="container-fluid">
+
+      <div class="row">
+        <span class="col-lg-2 my-4 pe-lg-5 col-md-12 justify-content-md-center text-center box-caption">
+          HOME
+        </span>
+      </div>
+
+      <div class="row box-container d-flex justify-content-center ">
+
+        <div class="col-lg-4 col-3 border box-1 d-flex justify-content-center align-items-center flex-column">
+          <a href="about.html"
+            class="d-flex justify-content-center align-items-center flex-column text-decoration-none">
+            <span class="material-symbols-outlined feed-icon"> feed </span>
+            <span class="icon-description">Contact Reports</span>
+          </a>
+        </div>
+
+        <div class="col-lg-4 col-3 border box-1 d-flex justify-content-center align-items-center flex-column">
+          <a href="service-shop.html"
+            class="d-flex justify-content-center align-items-center flex-column text-decoration-none">
+            <span class="material-symbols-outlined shop-icon"> shop </span>
+            <span class="icon-description">Service Shop Capacity</span>
+          </a>
+        </div>
+
+        <div class="col-lg-4 col-3 border box-1 d-flex justify-content-center align-items-center flex-column">
+          <a href="shop.html" class="d-flex justify-content-center align-items-center flex-column text-decoration-none">
+            <span class="material-symbols-outlined inventory-icon">
+              inventory
+            </span>
+            <span class="icon-description">SUPPLY DEMAND SIMULATOR</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </main>
+  <!-- start of footer------------------------------------------------------ -->
+  <footer>
+    <div class="container-fluid flex-all-center">
+
+      <div class="row justify-content-center align-items-center" style="min-height: 84px">
+        <div
+          class="col-lg-5 col-12 d-flex justify-content-lg-end border-right d-md-12 justify-content-center align-items-center">
+          <div>
+            <p class="mb-lg-0 p-sm-0">
+              &copy;2022 MAZDA NORTH AMERICAN OPERATIONS. ALL RIGHTS RESERVED.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 d-none d-lg-block d-lg-flex">
+          <p class="mb-lg-0">Need help?</p>
+          <p class="mb-lg-0"><u>Contact Support</u></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end of footer------------------------------------------------------ -->
+</body>
+
+</html>

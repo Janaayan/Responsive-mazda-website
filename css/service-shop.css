@@ -1,0 +1,504 @@
+@font-face {
+    font-family: 'Mazda Type';
+    src: url('../fonts/MazdaType-Regular.eot');
+    src: url('../fonts/MazdaType-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MazdaType-Regular.woff2') format('woff2'),
+        url('../fonts/MazdaType-Regular.woff') format('woff'),
+        url('../fonts/MazdaType-Regular.ttf') format('truetype'),
+        url('../fonts/MazdaType-Regular.svg#MazdaType-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mazda Type';
+    src: url('../fonts/MazdaType-Medium.eot');
+    src: url('../fonts/MazdaType-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MazdaType-Medium.woff2') format('woff2'),
+        url('../fonts/MazdaType-Medium.woff') format('woff'),
+        url('../fonts/MazdaType-Medium.ttf') format('truetype'),
+        url('../fonts/MazdaType-Medium.svg#MazdaType-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mazda Type';
+    src: url('../fonts/MazdaType-Italic.eot');
+    src: url('../fonts/MazdaType-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MazdaType-Italic.woff2') format('woff2'),
+        url('../fonts/MazdaType-Italic.woff') format('woff'),
+        url('../fonts/MazdaType-Italic.ttf') format('truetype'),
+        url('../fonts/MazdaType-Italic.svg#MazdaType-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mazda Type';
+    src: url('../fonts/MazdaType-Bold.eot');
+    src: url('../fonts/MazdaType-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MazdaType-Bold.woff2') format('woff2'),
+        url('../fonts/MazdaType-Bold.woff') format('woff'),
+        url('../fonts/MazdaType-Bold.ttf') format('truetype'),
+        url('../fonts/MazdaType-Bold.svg#MazdaType-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Mazda Type' !important;
+    font-weight: normal !important;
+
+}
+
+/* start of header css------------------------------------------------------- */
+header {
+    min-height: 90px;
+    background: #2B2B2B 0% 0% no-repeat padding-box;
+}
+
+.heading {
+    font-size: 28px;
+    line-height: 39px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.icon {
+    letter-spacing: 0px;
+    color: #999999;
+    opacity: 1;
+}
+
+.border-right {
+    border-right: 1px solid #999999;
+    height: 50px;
+    width: 100px;
+}
+
+.lower-header {
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: -1.04px 6px 9px #00000012;
+}
+
+/* end of header css-------------------------------------------------------------- */
+
+/* start of main------------------------------------------------------------- */
+main {
+    background-color: #F5F5F5;
+    min-height: 100vh;
+}
+
+.main-content {
+    height: 251px;
+}
+
+@media only screen and (min-width: 820px) and (max-width:1180px) {
+    .box-container {
+        gap: 10px;
+    }
+
+    .row .box-1 {
+        width: 270px !important;
+    }
+
+    .row .feed-icon {
+        font-size: 70px !important;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .box-container {
+        gap: 10px;
+    }
+
+    .row .box-1 {
+        width: 270px !important;
+    }
+
+    .row .feed-icon {
+        font-size: 70px !important;
+    }
+}
+
+.box-caption {
+    font: normal normal bold 22px/26px Mazda Type;
+    letter-spacing: 2.62px;
+    color: #000000;
+}
+
+.box-container {
+    gap: 30px;
+}
+
+.row .box-1 {
+    width: 394px;
+    height: 191px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.row .feed-icon {
+    font-size: 110px;
+    color: #999999;
+    opacity: 1;
+}
+
+.row .shop-icon {
+    font-size: 110px;
+    color: #999999;
+    opacity: 1;
+}
+
+.row .inventory-icon {
+    font-size: 110px;
+    color: #999999;
+    opacity: 1;
+}
+
+.row .icon-description {
+    font-family: 'Mazda Type';
+    letter-spacing: 0px;
+    color: #101010;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+/* strat of main-caption-content css-------------------------------------- */
+
+@media only screen and (min-width:576px) and (max-width: 767.98px) {
+    .content-heading {
+        font-size: 18px !important;
+        line-height: 20px !important;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+    .content-heading {
+        font-size: 15px !important;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width: 767.98px) {
+    .same-size {
+        font-size: 8px !important;
+    }
+
+    .button-item1 {
+        font-size: 8px !important;
+    }
+
+}
+
+@media only screen and (min-width:0px) and (max-width: 575.98px) {
+    .same-size {
+        font-size: 9px !important;
+    }
+
+    .button-item1 {
+        font-size: 8px !important;
+    }
+
+    .button-one {
+        width: 121px !important;
+        height: 39px !important;
+    }
+
+    .button-two {
+        width: 131px !important;
+        height: 39px !important;
+    }
+
+}
+
+.content-heading {
+    margin: 0;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 2.62px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.content-item .material-symbols-outlined {
+    font-size: 16px;
+}
+
+.first-item {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1.43px;
+    color: #101010;
+    text-transform: uppercase;
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.second-item {
+    text-decoration: underline;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1.43px;
+    color: #101010;
+    opacity: 1;
+}
+
+.third-item {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1.43px;
+    color: #999999;
+    opacity: 1;
+}
+
+.button-container {
+    gap: 30px;
+}
+
+.button-one {
+    width: 138px;
+    height: 45px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #101010;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+.button-two {
+    width: 164px;
+    height: 45px;
+    background: #101010 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+.button-item1 {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #101010;
+    opacity: 1;
+}
+
+.child {
+    color: #FFFFFF;
+}
+
+/* end of main-caption-content css-------------------------------------- */
+
+/* start of form-container css------------------------------------------ */
+@media only  screen and (min-width: 250px) and (max-width: 390.98px) {
+    .second-form {
+        width: 222px !important;
+    }
+    .first {
+        margin-left: 203px !important;
+    }
+    
+}
+@media (min-width: 391px) {
+    .second-form{
+        width: 350px !important;
+    }
+}
+.label-name {
+    font-weight: bold !important;
+    font-size: 13px !important;
+    line-height: 22px !important;
+    letter-spacing: 0px !important;
+    color: #101010 !important;
+    text-transform: uppercase !important;
+    opacity: 1 !important;
+}
+
+.first-form {
+    width: 166px !important;
+    height: 45px !important;
+    background: #FFFFFF 0% 0% no-repeat padding-box !important;
+    border: 1px solid #D5D5D5 !important;
+    border-radius: 3px !important;
+    opacity: 1 !important;
+}
+
+.second-form {
+    height: 45px !important;
+    background: #FFFFFF 0% 0% no-repeat padding-box !important;
+    border: 1px solid #D5D5D5 !important;
+    border-radius: 3px !important;
+    opacity: 1 !important;
+}
+
+.third-form {
+    width: 112px !important;
+    height: 45px !important;
+    background: #FFFFFF 0% 0% no-repeat padding-box !important;
+    border: 1px solid #D5D5D5 !important;
+    border-radius: 3px !important;
+    opacity: 1 !important;
+}
+
+.custom-icon::before {
+    content: "\f073";
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    font-style: normal;
+    margin-left: 132px;
+    margin-top: -40px;
+    font-size: 23px;
+    color: #999;
+    cursor: pointer;
+}
+
+.down {
+    transform: rotate(45deg);
+    position: absolute;
+    border: solid #afadad;
+    border-width: 0px 3px 3px 0px;
+    display: inline-block;
+    padding: 5px;
+}
+
+.first {
+    margin-left: 322px;
+    margin-top: -31px;
+}
+.second{
+    margin-left: 89px;
+    margin-top: -31px;
+}
+.form-button {
+    max-width: 166px;
+    height: 45px;
+    background: #101010 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+.form-button-item {
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+/* end of form-container css-------------------------------------------- */
+
+/* start of table css------------------------------------------------------ */
+@media (max-width: 570px) {
+
+    .table-caption h2 {
+        font-size: 12px !important;
+    }
+
+}
+
+.table-caption .material-symbols-outlined {
+    font-size: 41px;
+}
+
+.table-caption h2 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 2.3px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+th {
+    background-color: black !important;
+    color: #FFFFFF !important;
+    text-align: center !important;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.table>:not(caption)>*>* {
+    padding: 1.2rem 0.5rem !important;
+}
+tbody tr:nth-child(even) td {
+    background-color: rgb(225 225 225) !important;
+}
+td {
+    text-align: center;
+}
+/* end of table css--------------------------------------------------------- */
+
+/* start of last button css------------------------------------------------- */
+@media only  screen and (min-width: 344px) and (max-width:575.98px){
+    .table-button-item {
+        font-size: 9px !important;
+    }
+}
+@media (max-width:343.98px) {
+    .table-button-item {
+        font-size: 6px !important;
+    }
+}
+.table-button {
+    width: 166px;
+    height: 45px;
+    background: #101010 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+.table-button-item {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+/* end of last button css-------------------------------------------------- */
+
+/* end of main------------------------------------------ */
+
+/* start of footer------------------------------------------ */
+.flex-all-center {
+    height: 84px;
+    background: #2B2B2B;
+}
+
+.flex-all-center p {
+    font-size: 15px;
+    color: #B1B1B1;
+}
+
+@media (max-width: 515px) {
+    .flex-all-center p {
+        font-size: 7px;
+    }
+}
+
+@media (min-width: 973px) and (max-width: 1225px) {
+    .flex-all-center p {
+        font-size: 10px;
+    }
+}
+
+/* end of footer------------------------------------------ */

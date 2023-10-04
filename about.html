@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Mazda Website</title>
+    <link rel="stylesheet" href="css/util.css" />
+    <script src="javascript/about_script.js" defer></script>
+    <!-- bootstrap style----------------------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <!-- bootstrap style----------------------------------------->
+
+    <!-- icon---------------------------------------------------->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="https://kit.fontawesome.com/aed056c6bf.js" crossorigin="anonymous"></script>
+    <!-- icon---------------------------------------------------->
+
+</head>
+
+<body>
+    <!-- start of header------------------------------------------ -->
+    <header>
+        <div class="container-fluid text-center">
+
+            <div class="row align-items-center pt-3">
+
+                <div class="col-lg-2 d-flex justify-content-lg-start col-6  logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="company logo" />
+                    </a>
+                </div>
+
+                <div class="col-6 text-start heading">
+                    <h3 class="mt-lg-2">MAZDA FIELD PORTAL</h3>
+                </div>
+
+                <div class="col-lg-1 d-none d-lg-block border-right icon">
+                    <i class="fa-solid fa-link fs-3"></i>
+                    <p class="links">Useful Links</p>
+                </div>
+
+                <div class="col-lg-1 d-none d-lg-block border-right icon">
+                    <span class="material-symbols-outlined fs-3"> search </span>
+                    <p>Search</p>
+                </div>
+
+                <div class="search-box input-group d-lg-none col-6 my-2" style="width: 50%">
+                    <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+                        <option selected>Search...</option>
+                        <option value="1">Useful Links</option>
+                    </select>
+                </div>
+
+                <div class="col-lg-2 d-flex justify-content-lg-end align-items-center col-6 justify-content-end"
+                    style="color: #999999; gap: 5px">
+                    <p class="fs-5 mb-0">User Name</p>
+                    <span class="material-symbols-outlined fs-1"> person </span>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!-- end of header------------------------------------------ -->
+    <main>
+        <div class="container-fluid">
+            <!-- start of lower-header------------------------------------------ -->
+            <div class="row lower-header align-items-center">
+                <div class="col-2" style="color: #999999">
+                    <i class="fa-solid fa-bars fs-2 sidebar"></i>
+                </div>
+                <div class="col-8  d-flex justify-content-center gap-3">
+
+                    <div class=" d-lg-flex d-md-flex d-sm-flex d-none align-self-center">
+                        <span class="material-symbols-outlined">
+                            filter_alt
+                        </span>
+                        <span id="expand-icon" class="material-symbols-outlined expand_more">
+                            expand_more
+                        </span>
+                    </div>
+
+                    <div class=" d-lg-flex d-md-flex d-sm-flex d-none flex-column align-self-end">
+                        <span class="button1-caption same-cap">LOCATION</span>
+                        <button class="button1-container d-flex  justify-content-center align-items-center">
+                            <span class="button1-item same-content">MV</span>
+                        </button>
+                    </div>
+
+                    <div class=" align-self-end d-lg-block d-md-block d-sm-block d-none">
+                        <button class="button2 d-flex  justify-content-center align-items-center">
+                            <span class="button2-item same-content">D04</span>
+                        </button>
+                    </div>
+
+                    <div class="description-para d-sm-none d-md-flex d-lg-flex d-flex  flex-row gap-2 justify-content-center align-self-end
+                         align-items-lg-center">
+                        <span class="para1">
+                            34448-STUART POWELL MAZDA
+                        </span>
+                        <div class="separator3"></div>
+                        <span class="para2">
+                            FCLTY TYPE - AB
+                        </span>
+
+                    </div>
+
+                    <div class="d-lg-flex d-md-flex d-sm-flex d-none  flex-column align-self-end">
+                        <span class="button3-caption same-cap">TIMING</span>
+                        <button class="button-3 d-flex  justify-content-center align-items-center">
+                            <span class="button3-item same-content">November, 2021</span>
+                        </button>
+                    </div>
+
+                </div>
+
+                <div
+                    class=" col-2  d-lg-flex d-md-flex d-sm-flex d-none excel-icon justify-content-end align-items-end">
+                    <i class="fa-regular fa-file-excel"></i>
+                </div>
+
+            </div>
+            <!-- end of lower-header------------------------------------------ -->
+
+            <!-- start of radio-section-------------------------------------------------------- -->
+            <div class="row justify-content-lg-center " id="radio-container">
+                <div class="col-lg-8  col-5 d-lg-flex justify-content-lg-end radio-container toggle-container" id="radio-container">
+
+                    <div class="radio-title d-flex">
+
+                        <div class="radio-text">Show :</div>
+
+                        <div class="radio d-flex">
+
+                            <div>
+                                <label class="custom-radio">
+                                    <input type="radio" name="change-existing" value="yes">
+                                    <span class="checkmark"></span>
+                                    <div class="radio-option">BY REGION</div>
+                                </label>
+                            </div>
+
+                            <div>
+                                <label class="custom-radio">
+                                    <input type="radio" name="change-existing" value="no">
+                                    <span class="checkmark"></span>
+                                    <div class="radio-option">BY DEALER</div>
+                                </label>
+                            </div>
+
+                            <div>
+                                <label class="custom-radio">
+                                    <input type="radio" name="change-existing" value="no">
+                                    <span class="checkmark"></span>
+                                    <div class="radio-option">BY MARKET</div>
+                                </label>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-7 close-icon text-end toggle-container" style="cursor: pointer;">
+                    <span class="material-symbols-outlined close" id="close-icon">
+                        close
+                    </span>
+                </div>
+            </div>
+            <!-- end of radio-section-------------------------------------------------------- -->
+
+            <!-- start of form container------------------------------------------------------ -->
+            <div class="row justify-content-end my-3 forms-group flex-lg-row flex-column  toggle-container"id="form-container">
+                <div class="col-lg-5 col-12 d-flex flex-column align-items-lg-end align-items-center ">
+
+                    <div class="input-caption d-flex">
+                        <span class="material-symbols-outlined">
+                            language
+                        </span>
+                        <h3>LOCATION</h3>
+                    </div>
+                    <div class="form-container d-flex">
+                        <form>
+                            <div class="form-child">
+                                <div><input type="text" id="name" name="name" placeholder="REGIONS">
+                                    <i class="arrow down"></i>
+                                </div>
+                            </div>
+
+                            <div class="form-child">
+                                <div><input type="text" id="location" name="location" placeholder="DISTRICTS">
+                                    <i class="arrow down"></i>
+                                </div>
+                            </div>
+
+                            <div class="form-child">
+                                <div><input type="text" id="location" name="location" placeholder="DEALERS">
+                                    <i class="arrow down"></i>
+                                </div>
+                            </div>
+
+                            <div class="form-child">
+                                <input type="text" id="location" name="location" placeholder="ENTER DEALER CODE">
+                            </div>
+
+                            <div class="buttom-container">
+                                <span class="buttom-para">Clear</span>
+                                <div class="separator4"></div>
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+                <div class="col-2 d-flex justify-content-center">
+                    <div class="separator5 d-lg-block d-none"></div>
+                </div>
+                <div
+                    class="col-lg-5 col-12 form-child2 d-lg-block d-flex flex-column  justify-content-center align-items-center  d-md-flex justify-content-md-center align-items-md-center flex-sm-column d-sm-flex justify-content-sm-center align-items-sm-center flex-sm-column">
+
+                    <div class="input-caption1 d-flex">
+                        <span class="custom-icon-calender"></span>
+                        <h3>TIMING</h3>
+                    </div>
+
+                    <div class="form-child">
+                        <label for="month">Month:</label>
+                        <input type="text" id="month" name="month" placeholder="Choose a month">
+                        <i class="custom-icon"></i>
+                    </div>
+
+                    <div class="buttom-container1">
+                        <span class="buttom-para">CURENT MONTH</span>
+                        <div class="separator6"></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row justify-content-center p-3 toggle-container" id="form-buttons">
+
+                <div class="col-5 d-flex justify-content-center align-items-center button-container2-items">
+
+                    <button><span class="button-description">UPDATE</span></button>
+                    <button><span class="button-description">CANCEL</span></button>
+
+                </div>
+
+            </div>
+            <!-- end of form container------------------------------------------------------ -->
+        </div>
+    </main>
+    <!-- start of footer------------------------------------------------------ -->
+    <footer>
+        <div class="container-fluid flex-all-center">
+
+            <div class="row justify-content-center align-items-center" style="min-height: 84px">
+                <div
+                    class="col-lg-5 col-12 d-flex justify-content-lg-end border-right d-md-12 justify-content-center align-items-center">
+                    <div>
+                        <p class="mb-lg-0 p-sm-0">
+                            &copy;2022 MAZDA NORTH AMERICAN OPERATIONS. ALL RIGHTS RESERVED.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-none d-lg-block d-lg-flex">
+                    <p class="mb-lg-0">Need help?</p>
+                    <p class="mb-lg-0"><u>Contact Support</u></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer------------------------------------------------------ -->
+</body>
+
+</html>

@@ -1,0 +1,950 @@
+@font-face {
+    font-family: 'Mazda Type';
+    src: url('../fonts/MazdaType-Regular.eot');
+    src: url('../fonts/MazdaType-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MazdaType-Regular.woff2') format('woff2'),
+        url('../fonts/MazdaType-Regular.woff') format('woff'),
+        url('../fonts/MazdaType-Regular.ttf') format('truetype'),
+        url('../fonts/MazdaType-Regular.svg#MazdaType-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mazda Type';
+    src: url('../fonts/MazdaType-Medium.eot');
+    src: url('../fonts/MazdaType-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MazdaType-Medium.woff2') format('woff2'),
+        url('../fonts/MazdaType-Medium.woff') format('woff'),
+        url('../fonts/MazdaType-Medium.ttf') format('truetype'),
+        url('../fonts/MazdaType-Medium.svg#MazdaType-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mazda Type';
+    src: url('../fonts/MazdaType-Italic.eot');
+    src: url('../fonts/MazdaType-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MazdaType-Italic.woff2') format('woff2'),
+        url('../fonts/MazdaType-Italic.woff') format('woff'),
+        url('../fonts/MazdaType-Italic.ttf') format('truetype'),
+        url('../fonts/MazdaType-Italic.svg#MazdaType-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mazda Type';
+    src: url('../fonts/MazdaType-Bold.eot');
+    src: url('../fonts/MazdaType-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MazdaType-Bold.woff2') format('woff2'),
+        url('../fonts/MazdaType-Bold.woff') format('woff'),
+        url('../fonts/MazdaType-Bold.ttf') format('truetype'),
+        url('../fonts/MazdaType-Bold.svg#MazdaType-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Mazda Type' !important;
+    font-weight: normal !important;
+
+}
+
+/* start of header css---------------------------------- */
+header {
+    min-height: 90px;
+    background: #2B2B2B 0% 0% no-repeat padding-box;
+}
+
+.heading {
+    font: normal normal bold 28px/39px Mazda Type;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.icon {
+    letter-spacing: 0px;
+    color: #999999;
+    opacity: 1;
+}
+
+.border-right {
+    border-right: 1px solid #999999;
+    height: 50px;
+    width: 100px;
+}
+
+/* end of header css---------------------------------- */
+/* SOFmain------------------------------------------------ */
+main {
+    background-color: #F5F5F5;
+    min-height: 100vh;
+}
+
+.main-content {
+    height: 251px;
+}
+
+/* Start of lower header------------------------------------------------- */
+@media only screen and (min-width: 992px) and (max-width:1199.98px) {
+    .description-para span {
+        font-size: 9px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:991.98px) {
+    .description-para span {
+        font-size: 6px !important;
+    }
+
+    .separator3 {
+        height: 18px !important;
+    }
+
+    .same-cap {
+        font-size: 9px !important;
+    }
+
+    .same-content {
+        font-size: 12px !important;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+    .description-para span {
+        font-size: 12px !important;
+    }
+
+    .description-para {
+        margin-top: 5px;
+    }
+
+}
+
+.lower-header {
+    min-height: 60px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 10px #0000001A;
+    opacity: 1;
+}
+
+.same-cap {
+    letter-spacing: 0.33px;
+    color: #2B2B2B;
+    opacity: 1;
+    font-size: 11px;
+}
+
+.button1-container {
+    background: #2B2B2B 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+    width: 56px;
+    height: 23px;
+}
+
+.same-content {
+    letter-spacing: 0.45px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 15px;
+}
+
+.button2 {
+    background: #2B2B2B 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+    width: 58px;
+    height: 23px;
+}
+
+.description-para span {
+    letter-spacing: 0.45px;
+    color: #101010;
+    opacity: 1;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.separator3 {
+    height: 24px;
+    border: 1px solid #484848;
+}
+
+.button-3 {
+    width: 149px;
+    height: 24px;
+    background: #141414 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+}
+
+.excel-icon .fa-file-excel {
+    font-size: 29px;
+    color: #999999;
+}
+
+/* end of lower-header css--------------------------------------------------- */
+
+/* strat of main-caption-content css-------------------------------------- */
+
+@media only screen and (min-width:576px) and (max-width: 767.98px) {
+    .content-heading {
+        font-size: 18px !important;
+        line-height: 20px !important;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+    .content-heading {
+        font-size: 15px !important;
+    }
+}
+
+.content-heading {
+    margin: 0;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 2.62px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.content-item .material-symbols-outlined {
+    font-size: 16px;
+}
+
+.first-item {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1.43px;
+    color: #101010;
+    text-transform: uppercase;
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.second-item {
+    text-decoration: underline;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1.43px;
+    color: #101010;
+    opacity: 1;
+}
+
+.third-item {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1.43px;
+    color: #999999;
+    opacity: 1;
+}
+
+/* end of main-caption-content css-------------------------------------- */
+/* start of box css------------------------------------------------------- */
+@media only screen and (min-width: 576px) and (max-width:991.99px) {
+    .d-cap {
+        font-size: 20px !important;
+    }
+
+    .description2 {
+        font-size: 8px !important;
+        line-height: 10px !important;
+    }
+
+    .description3 {
+        font-size: 13px !important;
+    }
+
+    .description5 {
+        font-size: 8px !important;
+        line-height: 10px !important;
+    }
+
+    .description6 {
+        font-size: 13px !important;
+    }
+
+    .description8 {
+        font-size: 10px !important;
+    }
+
+    .description9 {
+        font-size: 9px !important;
+        line-height: 14px !important;
+    }
+
+    .description10 {
+        font-size: 13px !important;
+    }
+
+    .description12 {
+        font-size: 10px !important;
+        line-height: 22px !important;
+    }
+
+    .description13 {
+        font-size: 13px !important;
+        line-height: 22px !important;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width:575.99px) {
+    .box-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+
+    .div-box {
+        width: 100% !important;
+    }
+
+    .d-extra-small {
+        font-size: 12px !important;
+    }
+}
+
+.box-caption {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 2.3px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.box {
+    /* gap: 32px; */
+    width: 100%;
+    min-height: 120px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+.div-box {
+    height: 120px;
+    width: 25%;
+}
+
+.box4 {
+    background: #F9F9F9 0% 0% no-repeat padding-box;
+}
+
+.separator5 {
+    height: 100px;
+    border: 1px solid #d5d5d5;
+}
+
+.description1 {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 22px;
+    letter-spacing: 0.78px;
+    color: #101010;
+    opacity: 1;
+    margin-bottom: 11px;
+}
+
+.description2 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.47px;
+    color: #999999;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-bottom: 3px;
+}
+
+.description3 {
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 0.41px;
+    color: #272D3B;
+    opacity: 1;
+}
+
+.description4 {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 22px;
+    letter-spacing: 0.78px;
+    color: #101010;
+    opacity: 1;
+    margin-bottom: 11px;
+}
+
+.description5 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.47px;
+    color: #999999;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-bottom: 3px;
+}
+
+.description6 {
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 0.41px;
+    color: #272D3B;
+    opacity: 1;
+}
+
+.description7 {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 22px;
+    letter-spacing: 0.78px;
+    color: #101010;
+    opacity: 1;
+    margin-top: 18px;
+    margin-bottom: 6px;
+}
+
+.description8 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.47px;
+    color: #999999;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.description9 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.47px;
+    color: #999999;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.description10 {
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 0.41px;
+    color: #272D3B;
+    opacity: 1;
+}
+
+.description11 {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 22px;
+    letter-spacing: 0.78px;
+    color: #FF0000;
+    opacity: 1;
+    margin-bottom: 11px;
+}
+
+.description12 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.47px;
+    color: #999999;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-bottom: 3px;
+}
+
+.description13 {
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 0.41px;
+    color: #2B2B2B;
+    opacity: 1;
+}
+
+/* end of box css------------------------------------------------------- */
+
+/* start of table css---------------------------------------------------- */
+@media (max-width: 570px) {
+
+    .table-caption h2 {
+        font-size: 12px !important;
+    }
+
+}
+
+.table-caption .material-symbols-outlined {
+    font-size: 41px;
+    cursor: pointer;
+}
+.table-caption h2 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 2.3px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+th {
+    background-color: black !important;
+    color: #FFFFFF !important;
+    text-align: center !important;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.table>:not(caption)>*>* {
+    padding: 1.2rem 0.5rem !important;
+}
+
+.table tbody tr th:nth-child(odd) {
+    border-bottom-width: 0px !important;
+}
+
+tbody tr:nth-child(even) td {
+    background-color: rgb(225 225 225) !important;
+}
+
+tbody tr td:last-child {
+    background-color: rgb(169 169 169) !important;
+}
+
+td {
+    text-align: center;
+}
+
+/* end of table css------------------------------------------------------ */
+
+/* start of accordion css------------------------------------------------ */
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #c9c9c9 !important;
+}
+
+.accordion {
+    --bs-accordion-btn-padding-y: 2rem !important;
+    --bs-accordion-border-radius: 0px !important;
+    --bs-accordion-inner-border-radius: 0px !important;
+    --bs-accordion-btn-bg: #f5f5f5 !important;
+    --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e") !important;
+    --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e") !important;
+}
+
+.accordion-header button {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 2.3px;
+    color: #000000;
+}
+
+.accordion-button:hover {
+    color: #9189ff;
+}
+
+/* start of CSS for the tooltips --------------------------------------------------------*/
+@media (max-width:768px) {
+    .t-head {
+        font-size: 20px !important;
+    }
+
+    .t-content {
+        font-size: 10px !important;
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:470px) {
+    .tooltip-content {
+        visibility: hidden !important;
+    }
+}
+
+.accordion-body {
+    position: relative;
+}
+
+.tooltip-content {
+    position: absolute;
+    top: -200px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    color: #fff;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    box-shadow: 0px 3px 6px #272D3B33;
+    border: 1px solid #d5d5d5;
+}
+
+.t-child {
+    max-width: 100%;
+    height: 99px;
+}
+
+.tooltip-item {
+    padding: 5px 10px;
+}
+
+.accordion-body:hover .tooltip-content {
+    opacity: 1;
+    visibility: visible;
+}
+
+.t-body:hover {
+    cursor: pointer;
+}
+
+.tooltip-circle {
+    width: 65px !important;
+    height: 129px !important;
+}
+
+.ciircle-progress-text {
+    position: absolute;
+    top: 56%;
+    left: 53%;
+    transform: translate(-60%, -60%);
+    font-size: 15px;
+    font-weight: bold;
+    color: #101010;
+}
+
+.tooltip-arrow {
+    width: 0;
+    height: 0;
+    /* border: 1px solid #d5d5d5; */
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid white;
+    /* Adjust this to change the arrow color */
+    position: absolute;
+    bottom: -15px;
+    /* Adjust this value to position the arrow at the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* end of CSS for the tooltip -----------------------------------------*/
+
+/* end od accordion css------------------------------------------------- */
+
+/* start of accordion-box css------------------------------------------- */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .box-header {
+        font-size: 20px !important;
+    }
+
+    .box-content1 {
+        font-size: 7px !important;
+    }
+
+    .box-lastcontent {
+        font-size: 11px !important;
+    }
+
+    .circle-sp {
+        top: 10px !important;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .box-header {
+        font-size: 22px !important;
+    }
+
+    .box-content1 {
+        font-size: 12px !important;
+    }
+
+    .medium-sp {
+        top: 17px !important;
+    }
+}
+
+@media only screen and (min-width:150px) and (max-width:315px) {
+    .box-header {
+        font-size: 15px !important;
+    }
+
+    .box-content1 {
+        font-size: 8px !important;
+    }
+
+    .box-lastcontent {
+        font-size: 10px !important;
+    }
+
+}
+
+@media (max-width: 991.98px) {
+    .progress-text {
+        font-size: 15px !important;
+    }
+}
+
+@media (max-width: 767.68px) {
+    .accordion-div {
+        width: 100% !important;
+    }
+}
+
+.accordion-box {
+    width: 100%;
+    min-height: 273px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #272D3B33;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+.accordion-div {
+    width: 25%;
+    height: 133px;
+}
+
+.box-header {
+    font-size: 25px;
+    line-height: 22px;
+    font-weight: bold;
+    letter-spacing: 0.78px;
+    color: #101010;
+    opacity: 1;
+}
+
+.box-content1 {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: bold;
+    letter-spacing: 0.47px;
+    color: #999999;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.box-lastcontent {
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: medium;
+    letter-spacing: 0.41px;
+    color: #272D3B;
+    opacity: 1;
+}
+
+.separator {
+    height: 80px;
+    border: 1px solid #d5d5d5;
+}
+
+/* Add this CSS to style the circular progress indicator */
+.progress-circle {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: #101010;
+}
+
+.progress-svg {
+    transform: rotate(-90deg);
+}
+.progress-full-bar{
+    fill: transparent;
+    stroke: hsl(225, 2%, 67%);
+    stroke-width: 6px;
+    stroke-dasharray: 283px;
+    stroke-dashoffset: calc(283px - (283px * attr(data-progress) / 100));
+    transition: stroke-dashoffset 0.5s ease-in-out;
+}
+.progress-bar {
+    fill: transparent;
+    stroke: #4073e1;
+    stroke-width: 6px;
+    stroke-dasharray: 283px;
+    stroke-dashoffset: calc(283px - (283px * attr(data-progress) / 100));
+    transition: stroke-dashoffset 0.5s ease-in-out;
+}
+
+.one {
+    stroke-dasharray: 213px;
+}
+
+.four {
+    stroke-dasharray: 141px;
+}
+
+.five {
+    stroke-dasharray: 147px;
+}
+
+.six {
+    stroke-dasharray: 152px;
+}
+
+.seven {
+    stroke-dasharray: 141px;
+}
+
+/*  CSS to style the circular progress indicator */
+
+
+/* end of accordion-box css--------------------------------------------- */
+
+/* start of 2nd box css---------------------------------------------------- */
+@media only screen and (min-width: 576px) and (max-width:991.99px) {
+    .description15 {
+        font-size: 13px !important;
+        line-height: 19px !important;
+    }
+
+    .description17 {
+        font-size: 8px !important;
+        line-height: 16px !important;
+    }
+
+    .description18 {
+        font-size: 10px !important;
+        line-height: 22px !important;
+    }
+
+    /* .required-margin{
+        margin-bottom: 22px !important;
+    } */
+    .description16 {
+        font-size: 17px !important;
+        line-height: 12px !important;
+    }
+
+    .description19 {
+        font-size: 12px !important;
+        line-height: 22px !important;
+    }
+}
+
+.description14 {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 22px;
+    letter-spacing: 0.78px;
+    color: #FF0000;
+    opacity: 1;
+}
+
+.description15 {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.47px;
+    color: #444E86;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.description16 {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 22px;
+    letter-spacing: 0.78px;
+    color: #101010;
+    opacity: 1;
+    margin-top: 18px;
+    margin-bottom: 14px;
+}
+
+.description17 {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 0.47px;
+    color: #999999;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.required-margin {
+    margin-bottom: 22px;
+}
+
+.description18 {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.47px;
+    color: #999999;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.description19 {
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 0.41px;
+    color: #272D3B;
+    opacity: 1;
+}
+
+/* end of 2nd box css------------------------------------------------------ */
+
+/* end of main------------------------------------------------------------------- *\
+
+/* start of footer css-------------------------------------------------------------*/
+.flex-all-center {
+    height: 84px;
+    background: #2B2B2B;
+}
+
+.flex-all-center p {
+    font-size: 15px;
+    color: #B1B1B1;
+}
+
+@media (max-width: 515px) {
+    .flex-all-center p {
+        font-size: 7px;
+    }
+}
+
+@media (min-width: 973px) and (max-width: 1225px) {
+    .flex-all-center p {
+        font-size: 10px;
+    }
+}
+
+/* end of footer css ---------------------------------------------------------------*/
