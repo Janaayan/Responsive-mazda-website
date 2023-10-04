@@ -85,9 +85,9 @@ closeIcon.addEventListener("click", () => {
   if (closeIcon.classList.contains("close")) {
     // Close the form-container with transition
     formContainer.style.transition = "all 0.5s ease-in-out";
-    formContainer.style.transform = "translateX(100%)";
+    formContainer.style.transform = "translateX(-100%)";
     formbuttons.style.transition = "all 0.5s ease-in-out";
-    formbuttons.style.transform = "translateX(100%)";
+    formbuttons.style.transform = "translateX(-100%)";
     closeIcon.classList.remove("close");
     closeIcon.classList.add("visible");
     closeIcon.textContent = "visibility";
